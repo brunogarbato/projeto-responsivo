@@ -1,12 +1,13 @@
 function chamarMenu () {
     let menu = document.getElementById("itens");
+    let botao = document.getElementById("burguer");
     if (menu.style.display == "block") {
         menu.style.display = "none";
-        menu.backgroundColor = "black";
+        botao.backgroundColor = "black"
+        ;
     } else {
         menu.style.display = "block";
-        menu.backgroundColor = "white";
+        botao.style.backgroundColor = "white";
     }
 
-    
 }
