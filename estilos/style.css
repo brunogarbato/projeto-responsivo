@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 
-
 * {
     margin: 0;
     padding: 0;
@@ -22,45 +21,62 @@ header h1 {
     text-align: center;
     padding: 10px;
 }
+nav {
+    display: none;
+}
+
+nav a {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    border-top: 2px solid rgb(145, 145, 145);
+    background-color: rgb(97, 97, 97);
+    
+}
+
+nav a:hover {
+    background-color: gray;
+}
 
 nav ul {
-    display: flex;
-    gap: 10px;
     list-style-type: none;
-}
-
-ul li {
-    padding: 10px;
-    background-color: rgb(83, 83, 83);
-    color: white;
-}
-
-ul li:hover {
-    background-color: white;
-    color: black;
-    cursor: pointer;
 }
 
 main {
     background-color: white;
     margin: 20px auto;
-    max-width: 800px;
+    width: 90vw;
+    max-width: 1000px;
     padding: 10px;
     border-radius: 10px;
 }
 
+main h2 {
+    margin: auto auto 20px auto;
+}
+
 main p {
-    padding: 20px 0px;
+    padding-bottom: 20px;
     text-indent: 10px;
     text-align: justify;
 }
 
-
-@media screen and (min-width: 1200px) {
-    main {
-        font-size: 1.1em;
-    }
+#burguer {
+    background-color: rgb(34, 34, 34);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
+
+#burguer:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
 
 
 
