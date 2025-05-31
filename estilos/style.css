@@ -149,3 +149,22 @@ main p {
         border-radius: 10px;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    #itens ul {
+        display: flex;
+        justify-content: start;
+        gap: 5px;
+        width: 100vw;
+        height: 50px;
+        
+    }
+
+    #itens li a {
+        width: 200px;
+        height: 60px;
+        align-items: center;
+        font-size: 1.4em;
+        border-radius: 10px;
+    }
+}
